@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    margin: 2rem 0;
+
+}
+
+.container{
+    width: 60%;
+}
+
+.right-box{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 0 1rem;
+}
+
+.left-box{
+    width: 90%;
+}
+
+.result{
+    width: 40%;
+}
+
+.data{
+    width: 60%;
+}
+
+
+/* Table */
+table th, td{
+    padding: 0 1rem;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: red;
+}
